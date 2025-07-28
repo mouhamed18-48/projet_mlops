@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/352824280842381001/5f2dbb530b6646b29592036fbdabfede/artifacts
+end_time: 1753732881106
+entry_point_name: ''
+experiment_id: '352824280842381001'
+lifecycle_stage: active
+run_id: 5f2dbb530b6646b29592036fbdabfede
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753732856774
+status: 3
+tags: []
+user_id: HP

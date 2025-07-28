@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/352824280842381001/models/m-8f3f63d38c4e403eac44f8885e08385c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-8f3f63d38c4e403eac44f8885e08385c
+model_size_bytes: 63137
+model_uuid: m-8f3f63d38c4e403eac44f8885e08385c
+prompts: null
+run_id: 0114d357f903495b8584dc2b5679910d
+utc_time_created: '2025-07-28 19:00:56.711782'
