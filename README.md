@@ -74,7 +74,7 @@ Ce projet vise à prédire le **revenu des restaurants** à l'aide de plusieurs 
 
 - **Nom & Prénom :** Mouhamed  Diagne
 - **Email :** diagnem@ept.sn
-- **GitHub :** @mouhamed18-48(https://github.com/mouhamed18-48)
+- **GitHub :** [@mouhamed18-48](https://github.com/mouhamed18-48)
 
 Ce projet a été réalisé dans le cadre d'une initiation au MLOps, en intégrant Jenkins pour l'automatisation des étapes clés du cycle de vie d'un modèle Machine Learning.
 
