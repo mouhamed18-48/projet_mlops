@@ -1,0 +1,77 @@
+pipeline {
+    agent any
+
+    triggers {
+        pollSCM('* * * * *') // vérifie les commits chaque minute
+    }
+
+    environment {
+        PYTHON_3_13 = "C:\\Program Files\\Python313\\python.exe"
+        PYTHON_3_10 = "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', changelog: false, poll: true, url: 'https://github.com/mouhamed18-48/projet_mlops.git/'
+            }
+        }
+
+        stage('Nettoyage des fichiers de données') {
+            steps {
+                bat '''
+                    if exist training_data\\test_transformed.csv del training_data\\test_transformed.csv
+                    if exist training_data\\train_transformed.csv del training_data\\train_transformed.csv
+                '''
+            }
+        }
+
+        stage('Analyse des données (Python 3.13)') {
+            steps {
+                bat """
+                    \"%PYTHON_3_13%\" -m pip install --upgrade pip
+                    \"%PYTHON_3_13%\" -m pip install jupyter nbconvert numpy pandas matplotlib seaborn scipy scikit-learn xgboost
+                    \"%PYTHON_3_13%\" -m nbconvert --to notebook --execute notebooks\\resto_revenue_01_analyse.ipynb --output output_analyse.ipynb
+                """
+            }
+        }
+
+        stage('Nettoyage MLOps') {
+            steps {
+                bat '''
+                    if exist notebooks\\best_model rmdir /s /q notebooks\\best_model
+                    if exist notebooks\\mlruns rmdir /s /q notebooks\\mlruns
+                    mkdir notebooks\\mlruns
+                '''
+            }
+        }
+
+        stage('Tâches MLOps (Python 3.10)') {
+            steps {
+                bat """
+                    \"%PYTHON_3_10%\" -m pip install --upgrade pip
+                    \"%PYTHON_3_10%\" -m pip install jupyter nbconvert mlflow pandas numpy scikit-learn lightgbm xgboost math sklearn
+                    \"%PYTHON_3_10%\" -m nbconvert --to notebook --execute notebooks\\mlops_tasks.ipynb --output output_mlops.ipynb
+                """
+            }
+        }
+
+        stage('Lancer MLflow UI') {
+            steps {
+                bat """
+                    cd notebooks
+                    start /b mlflow ui
+                """
+            }
+        }
+
+        stage('Déploiement local du modèle') {
+            steps {
+                bat '''
+                    cd notebooks
+                    start /b mlflow models serve -m best_model -p 5001 --no-conda
+                '''
+            }
+        }
+    }
+}
