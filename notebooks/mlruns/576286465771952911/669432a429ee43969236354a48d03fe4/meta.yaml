@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/576286465771952911/669432a429ee43969236354a48d03fe4/artifacts
+end_time: 1754000747820
+entry_point_name: ''
+experiment_id: '576286465771952911'
+lifecycle_stage: active
+run_id: 669432a429ee43969236354a48d03fe4
+run_name: Lasso
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754000741659
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/576286465771952911/0a2eea7a94e24ae6a2f48172f14274fc/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '576286465771952911'
+lifecycle_stage: active
+run_id: 0a2eea7a94e24ae6a2f48172f14274fc
+run_name: dapper-horse-417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754001426545
+status: 1
+tags: []
+user_id: HP

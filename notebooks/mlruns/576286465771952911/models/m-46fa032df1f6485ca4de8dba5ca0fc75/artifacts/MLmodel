@@ -1,0 +1,57 @@
+artifact_path: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/576286465771952911/models/m-46fa032df1f6485ca4de8dba5ca0fc75/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-46fa032df1f6485ca4de8dba5ca0fc75
+model_size_bytes: 58397
+model_uuid: m-46fa032df1f6485ca4de8dba5ca0fc75
+prompts: null
+run_id: b6e97e18fe6942c28a7885e431d0f6a0
+signature:
+  inputs: '[{"type": "double", "name": "P1", "required": true}, {"type": "double",
+    "name": "P2", "required": true}, {"type": "double", "name": "P3", "required":
+    true}, {"type": "double", "name": "P4", "required": true}, {"type": "double",
+    "name": "P5", "required": true}, {"type": "double", "name": "P6", "required":
+    true}, {"type": "double", "name": "P7", "required": true}, {"type": "double",
+    "name": "P8", "required": true}, {"type": "double", "name": "P9", "required":
+    true}, {"type": "double", "name": "P10", "required": true}, {"type": "double",
+    "name": "P11", "required": true}, {"type": "double", "name": "P12", "required":
+    true}, {"type": "double", "name": "P13", "required": true}, {"type": "double",
+    "name": "P14", "required": true}, {"type": "double", "name": "P15", "required":
+    true}, {"type": "double", "name": "P16", "required": true}, {"type": "double",
+    "name": "P17", "required": true}, {"type": "double", "name": "P18", "required":
+    true}, {"type": "double", "name": "P19", "required": true}, {"type": "double",
+    "name": "P20", "required": true}, {"type": "double", "name": "P21", "required":
+    true}, {"type": "double", "name": "P22", "required": true}, {"type": "double",
+    "name": "P23", "required": true}, {"type": "double", "name": "P24", "required":
+    true}, {"type": "double", "name": "P25", "required": true}, {"type": "double",
+    "name": "P26", "required": true}, {"type": "double", "name": "P27", "required":
+    true}, {"type": "double", "name": "P28", "required": true}, {"type": "double",
+    "name": "P29", "required": true}, {"type": "double", "name": "P30", "required":
+    true}, {"type": "double", "name": "P31", "required": true}, {"type": "double",
+    "name": "P32", "required": true}, {"type": "double", "name": "P33", "required":
+    true}, {"type": "double", "name": "P34", "required": true}, {"type": "double",
+    "name": "P35", "required": true}, {"type": "double", "name": "P36", "required":
+    true}, {"type": "double", "name": "P37", "required": true}, {"type": "double",
+    "name": "Days Open", "required": true}, {"type": "boolean", "name": "City Group_Big
+    Cities", "required": true}, {"type": "boolean", "name": "City Group_Other", "required":
+    true}, {"type": "boolean", "name": "Type_DT", "required": true}, {"type": "boolean",
+    "name": "Type_FC", "required": true}, {"type": "boolean", "name": "Type_IL", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-31 22:37:01.008160'
