@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/201471662158453600/ec1d71eb88e74c0ab04038e0fb152b7d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '201471662158453600'
+lifecycle_stage: active
+run_id: ec1d71eb88e74c0ab04038e0fb152b7d
+run_name: unique-conch-466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754010649389
+status: 1
+tags: []
+user_id: HP
