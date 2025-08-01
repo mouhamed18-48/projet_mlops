@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/499510130150839693/e4eb1ee4d2344c6c958b74d59b0fab55/artifacts
+end_time: 1754044994027
+entry_point_name: ''
+experiment_id: '499510130150839693'
+lifecycle_stage: active
+run_id: e4eb1ee4d2344c6c958b74d59b0fab55
+run_name: ElasticNet
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754044976694
+status: 3
+tags: []
+user_id: HP

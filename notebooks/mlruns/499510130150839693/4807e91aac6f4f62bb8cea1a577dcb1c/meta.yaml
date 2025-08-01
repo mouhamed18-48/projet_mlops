@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/499510130150839693/4807e91aac6f4f62bb8cea1a577dcb1c/artifacts
+end_time: 1754045111845
+entry_point_name: ''
+experiment_id: '499510130150839693'
+lifecycle_stage: active
+run_id: 4807e91aac6f4f62bb8cea1a577dcb1c
+run_name: LightGBM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754045027453
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/499510130150839693/11f4c64a4cef4845a5ccaa33d2afc862/artifacts
+end_time: 1754044960099
+entry_point_name: ''
+experiment_id: '499510130150839693'
+lifecycle_stage: active
+run_id: 11f4c64a4cef4845a5ccaa33d2afc862
+run_name: Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754044915820
+status: 3
+tags: []
+user_id: HP

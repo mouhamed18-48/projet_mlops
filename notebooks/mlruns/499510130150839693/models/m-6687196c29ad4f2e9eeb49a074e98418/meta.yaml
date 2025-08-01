@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/499510130150839693/models/m-6687196c29ad4f2e9eeb49a074e98418/artifacts
+creation_timestamp: 1754045146567
+experiment_id: '499510130150839693'
+last_updated_timestamp: 1754045162419
+model_id: m-6687196c29ad4f2e9eeb49a074e98418
+model_type: null
+name: model
+source_run_id: c10401a3347f4e6db104f7d6267430aa
+status: 2
+status_message: null

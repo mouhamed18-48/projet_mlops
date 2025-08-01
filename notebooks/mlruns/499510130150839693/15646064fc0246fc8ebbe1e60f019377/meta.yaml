@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/HP/OneDrive/Documents/Projet%20MLOps/notebooks/mlruns/499510130150839693/15646064fc0246fc8ebbe1e60f019377/artifacts
+end_time: 1754045027433
+entry_point_name: ''
+experiment_id: '499510130150839693'
+lifecycle_stage: active
+run_id: 15646064fc0246fc8ebbe1e60f019377
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754045012363
+status: 3
+tags: []
+user_id: HP
